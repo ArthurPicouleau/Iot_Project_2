@@ -7,7 +7,7 @@ We coded 3 programs using the double tap functionality.
 
 In order to run our codes, we first need to download the ```Seed Arduino LSM6DS3``` library.
 To do this, go to ```Sketch``` > ```Include Library``` > ```Manage Libraries```.
-This takes you to the Library Manager. Simply enter the name of the library: ```Seed Arduino LSM6DS3```.
+This takes you to the Library Manager. Simply enter the name of the library: ```Seed Arduino LSM6DS3```. To run the code in the board you have to use the Upload button. 
 
 In all our codes we have concentrated solely on the values given by the accelerometer on the Z axis. In fact, by wearing the card on the index finger like a ring and double-tapping between the thumb and index finger, we realised that only the Z component was greatly modified and allowed us to detect movement.
 
