@@ -11,6 +11,11 @@ This takes you to the Library Manager. Simply enter the name of the library: ```
 
 In all our codes we have concentrated solely on the values given by the accelerometer on the Z axis. In fact, by wearing the card on the index finger like a ring and double-tapping between the thumb and index finger, we realised that only the Z component was greatly modified and allowed us to detect movement.
 
+To detect double-tapping, we've developed a function called RisingEdge. The principle is based on rising edge detection. In our case, the rising edge we need to detect is when the Z-axis acceleration exceeds a limit that we've set beforehand. For the double tap to be effective, this limit must be exceeded twice within a certain time interval.
+
+![Image1](/Sensors/Terminal.PNG)
+
+
 # Code 1 : Control of a led
 
 In this first program we control the red LED on the Seeed Xiao BLE nRF52840 Sense board. A double tap by the user turns the LED on and another turns it off.
