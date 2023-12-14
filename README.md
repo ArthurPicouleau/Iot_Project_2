@@ -21,5 +21,5 @@ In this second program, we wanted to use the three LEDs on the board. To do this
 
 # Code 3 : Control of the blink 
 
-In this third and final code, we decided to play with the flashing frequency of the red LED. Each double tap reduces the delay between the moment when the LED lights up and the moment when it goes out.
+In this third and final code, we decided to play with the flashing frequency of the red LED. Each double tap increases the time when LED lights up and the moment when it goes out.
 
