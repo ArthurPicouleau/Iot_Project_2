@@ -27,6 +27,6 @@ In this first program we control the red LED on the Seeed Xiao BLE nRF52840 Sens
 
 In this second program, we wanted to use the three LEDs on the board. To do this, we developed a program that allows the user to change the LED by double-tapping between his index finger and thumb.
 
-# Code 3 : Control of the blink 
+# Code 3 : Control of the lighting up 
 In the third program, we use the double tap to control how long the LED lights up. Each double tap increases the time when LED lights up.
 
