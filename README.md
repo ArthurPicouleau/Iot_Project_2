@@ -17,7 +17,7 @@ To detect double-tapping, we've developed a function called RisingEdge. The prin
 The graph shows a double tap at a sampling frequency of 500 Hz. 
 In each of the 3 codes, to detect the double tap, ```t1-t0``` must be between 15 and 50 ms. In our codes ```t1``` and ```t0``` are called ```tempo[0]``` and ```tempo[1]```
 
-When the code is uploaded to the card, wait a few seconds before starting to test the double tap. Often when a LED is lit (red, green or blue) it means you can start experimenting.
+When the code is uploaded to the card, wait a few seconds before starting to test the double tap or wait before thata LED is lit (red, green or blue). That means you can start experimenting.
 
 # Code 1 : Control of a led
 
