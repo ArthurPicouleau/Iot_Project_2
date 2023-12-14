@@ -13,7 +13,7 @@ In all our codes we have concentrated solely on the values given by the accelero
 
 To detect double-tapping, we've developed a function called RisingEdge. The principle is based on rising edge detection. In our case, the rising edge we need to detect is when the Z-axis acceleration exceeds a limit that we've set beforehand. For the double tap to be effective, this limit must be exceeded twice within a certain time interval.
 
-![Image1](/Sensors/Terminal.PNG)
+![Image1](/RisingEdge.png)
 
 
 # Code 1 : Control of a led
