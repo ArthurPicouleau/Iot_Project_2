@@ -15,7 +15,7 @@ To detect double-tapping, we've developed a function called RisingEdge. The prin
 
 ![Image1](/RisingEdge.png)
 The graph shows a double tap at a sampling frequency of 500 Hz. 
-In each of the 3 codes, to detect the double tap, ```t1-t0``` must be between 15 and 50 ms.
+In each of the 3 codes, to detect the double tap, ```t1-t0``` must be between 15 and 50 ms. In our codes ```t1``` and ```t0``` are called ```tempo[0]``` and ```tempo[1]```
 
 
 # Code 1 : Control of a led
